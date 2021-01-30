@@ -1,4 +1,4 @@
-import 'package:exam_quiz_app/screens/main_screen.dart';
+import 'package:exam_quiz_app/screens/main_route_screen.dart';
 import 'package:exam_quiz_app/screens/quiz_screen.dart';
 import 'package:exam_quiz_app/screens/result_screen.dart';
 import 'package:flutter/material.dart';
