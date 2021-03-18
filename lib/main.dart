@@ -1,6 +1,5 @@
-import 'package:exam_quiz_app/screens/main_route_screen.dart';
-import 'package:exam_quiz_app/screens/quiz_screen.dart';
-import 'package:exam_quiz_app/screens/result_screen.dart';
+import 'package:exam_quiz_app/loading-screens/startup_screen.dart';
+import 'package:exam_quiz_app/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -14,11 +13,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      initialRoute: MainScreen.id,
+      initialRoute: StartUpScreen.id,
       routes: {
         MainScreen.id: (context) => MainScreen(),
-        QuizScreen.id: (context) => QuizScreen(),
-        ResultScreen.id: (context) => ResultScreen(),
+        StartUpScreen.id: (context) => StartUpScreen(),
       },
     );
   }
